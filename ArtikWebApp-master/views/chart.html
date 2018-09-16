@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Healthbook | My Newsfeed</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="/js/d3.v4.min.js"></script>
+    <!--다운 받아서 포함 시키기-->
+    <link rel="stylesheet" href="/css/billboard.css">
+    <script src = "/js/billboard.js"></script>
+
+    <script src="/js/Chart.min.js"></script>
+    <link rel="stylesheet" href="/css/bootstrap.min.css"></link>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        {% for message in messages %}
+        <div id="messageid" class="media">
+          <div class="media-left">
+            <a href="#">
+              <img class="media-object" src="/images/devices/{{ message.dt.name}}_64.jpg" alt="{{ message.dt.name }}">
+            </a>
+          </div>
+          <div class="media-body">
+            <h4 class="media-heading">{{ message.dt.name }}</h4>
+            {{message.data2}}
+            <p><abbr class="timeago" datetime="{{ message.time }}" title="{{ message.time }}">{{ message.time }}</abbr></p>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    <button type="button" class="btn btn-primary btn-sm" id="testBtnOn">
+    <!-- <button type="button" class="btn btn-primary btn-sm" onclick="testFuncOn()"> -->
+        <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> Test On
+    </button>
+    <button type="button" class="btn btn-primary btn-sm" id="testBtnOff">
+        <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> Test Off
+    </button>
+    <form id="postdata" method="POST" action="/messages">
+      <input type="submit" name="" id="postDiv">
+    </form>
+    <script type="text/javascript">
+    var auto = setInterval(function(){
+        // form();
+    }, 5000)
+    function form(){
+        $.get("/test", function(data, status){
+            console.log("Data: " + JSON.stringify(data) + "\nStatus: " + status);
+        });
+    }
+</script>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/timeago.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $("abbr.timeago").timeago();
+      });
+
+      function getLocation() {
+          if (navigator.geolocation) {
+              navigator.geolocation.getCurrentPosition(showPosition);
+          } else {
+              alert("Geolocation is not supported by this browser.");
+          }
+      }
+
+      function showPosition(position) {
+          var form = $('<form></form>');
+          form.attr("method", "post");
+          form.attr("action", "/actions");
+          var parameters = {
+            lat: position.coords.latitude,
+            long: position.coords.longitude
+          }
+          $.each(parameters, function(key, value) {
+              var field = $('<input></input>');
+
+              field.attr("type", "hidden");
+              field.attr("name", key);
+              field.attr("value", value);
+
+              form.append(field);
+          });
+
+          // The form needs to be a part of the document in
+          // order for us to be able to submit it.
+          $(document.body).append(form);
+          form.submit();
+      }
+
+      document.getElementById('testBtnOn').onclick = function testFuncOn() {
+        console.log("Button Clicked\n");
+        var form = $('#postdata');
+          form.attr("method", "post");
+          form.attr("action", "/actions");
+          var parameters = {
+            Fan_mode:"1"
+          }
+          console.log("parameters done\n")
+          $.each(parameters, function(key, value) {
+              var field = $('#postDiv');
+
+              field.attr("type", "hidden");
+              field.attr("name", key);
+              field.attr("value", value);
+
+              form.append(field);
+            });
+          //form.attr("parameters","{\"Fan_mode\":\"1\"}");
+          console.log("form done\n");
+          $(document.body).append(form);
+          console.log(JSON.stringify(form));
+          form.submit();
+          console.log("submit done\n");
+      }
+      document.getElementById('testBtnOff').onclick = function testFuncOff() {
+        console.log("test");
+        var form = $('#postdata');
+          form.attr("method", "post");
+          form.attr("action", "/actions");
+          var parameters = {
+            Fan_mode:"0"
+          }
+          $.each(parameters, function(key, value) {
+              var field = $('#postDiv');
+
+              field.attr("type", "hidden");
+              field.attr("name", key);
+              field.attr("value", value);
+
+              form.append(field);
+            });
+          //form.attr("parameters","{\"Fan_mode\":\"0\"}");
+          $(document.body).append(form);
+          form.submit();
+      }
+    </script>
+
+  </body>
+</html>

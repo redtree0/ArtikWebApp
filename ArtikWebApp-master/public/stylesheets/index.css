@@ -1,0 +1,966 @@
+.home1exellenton {
+  width               : 100%;
+  min-width           : 375px;
+  height              : 100vh;
+  min-height          : 667px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.home1exellenton .backgroundlevel1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 667px;
+  margin              : 0;
+  width               : 375px;
+  position            : absolute;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .backgroundlevel1 .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 667px;
+  margin              : 0;
+  width               : 375px;
+  position            : relative;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .underbar {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 484px;
+  height              : 183px;
+  margin              : 0;
+  width               : 375px;
+  position            : absolute;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .underbar .rectangle2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 178px;
+  margin              : 0;
+  width               : 375px;
+  position            : absolute;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.7;
+}
+.home1exellenton .underbar .path3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 183px;
+  margin              : 0;
+  width               : 375px;
+  position            : absolute;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.7;
+}
+.home1exellenton .reservationoffcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 541px;
+  height              : 77px;
+  margin              : 0;
+  width               : 98px;
+  position            : absolute;
+  left                : 265px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .reservationoffcopy .uc608uc57dubaa8ub4dccopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 63px;
+  height              : auto;
+  margin              : 0;
+  width               : 98px;
+  position            : absolute;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "AppleSDGothicNeo-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(155, 154, 155, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.13px;
+  line-height         : 15.0px;
+}
+.home1exellenton .reservationoffcopy .rectangle9copy {
+  background-color    : rgba(171, 171, 171, 1.0);
+  top                 : 14px;
+  height              : 1px;
+  margin              : 0;
+  width               : 9px;
+  position            : absolute;
+  left                : 44px;
+  border-radius       : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .reservationoffcopy .oval11 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 23px;
+  margin              : 0;
+  width               : 23px;
+  position            : absolute;
+  left                : 37px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .reservationoffcopy .rectangle9copy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 25px;
+  height              : 1px;
+  margin              : 0;
+  width               : 8px;
+  position            : absolute;
+  left                : 45px;
+  -ms-transform       : rotate(90deg); /* IE 9 */
+  -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(90deg);
+}
+.home1exellenton .reservationoffcopy .rectangle9copy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30px;
+  height              : 1px;
+  margin              : 0;
+  width               : 8px;
+  position            : absolute;
+  left                : 42px;
+  -ms-transform       : rotate(220deg); /* IE 9 */
+  -webkit-transform   : rotate(220deg); /* Chrome, Safari, Opera */
+  transform           : rotate(220deg);
+}
+.home1exellenton .reservationoffcopy .oval11copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 23px;
+  height              : 1px;
+  margin              : 0;
+  width               : 1px;
+  position            : absolute;
+  left                : 54px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .reservationoffcopy .oval11copy4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 33px;
+  height              : 1px;
+  margin              : 0;
+  width               : 1px;
+  position            : absolute;
+  left                : 54px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .reservationoffcopy .oval11copy5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36px;
+  height              : 1px;
+  margin              : 0;
+  width               : 1px;
+  position            : absolute;
+  left                : 49px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .reservationoffcopy .oval11copy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 29px;
+  height              : 1px;
+  margin              : 0;
+  width               : 1px;
+  position            : absolute;
+  left                : 56px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .reservationoffcopy .oval12copy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  margin              : 0;
+  width               : 56px;
+  position            : absolute;
+  left                : 21px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .sleepoffcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 541px;
+  height              : 77px;
+  margin              : 0;
+  width               : 98px;
+  position            : absolute;
+  left                : 181px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .sleepoffcopy .ucde8uce68ubaa8ub4dccopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 63px;
+  height              : auto;
+  margin              : 0;
+  width               : 98px;
+  position            : absolute;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "AppleSDGothicNeo-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(155, 154, 155, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.13px;
+  line-height         : 15.0px;
+}
+.home1exellenton .sleepoffcopy .oval10copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 28px;
+  margin              : 0;
+  width               : 17px;
+  position            : absolute;
+  left                : 40px;
+  -ms-transform       : rotate(-22deg); /* IE 9 */
+  -webkit-transform   : rotate(-22deg); /* Chrome, Safari, Opera */
+  transform           : rotate(-22deg);
+}
+.home1exellenton .sleepoffcopy .oval12copy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  margin              : 0;
+  width               : 56px;
+  position            : absolute;
+  left                : 21px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .lowpoweroffcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 541px;
+  height              : 77px;
+  margin              : 0;
+  width               : 114px;
+  position            : absolute;
+  left                : 89px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .lowpoweroffcopy .uc800uc804ub825ubaa8ub4dc {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 63px;
+  height              : auto;
+  margin              : 0;
+  width               : 114px;
+  position            : absolute;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "AppleSDGothicNeo-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(155, 154, 155, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.13px;
+  line-height         : 15.0px;
+}
+.home1exellenton .lowpoweroffcopy .combinedshapecopy3 {
+  background-color    : rgba(171, 171, 171, 1.0);
+  top                 : 17px;
+  height              : 24px;
+  margin              : 0;
+  width               : 15px;
+  position            : absolute;
+  left                : 50px;
+  border-radius       : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .lowpoweroffcopy .rectangle5copy {
+  background-color    : rgba(171, 171, 171, 1.0);
+  top                 : 15px;
+  height              : 5px;
+  margin              : 0;
+  width               : 8px;
+  position            : absolute;
+  left                : 54px;
+  border-radius       : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .lowpoweroffcopy .rectangle9copy4 {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 35px;
+  height              : 3px;
+  margin              : 0;
+  width               : 11px;
+  position            : absolute;
+  left                : 52px;
+  border-radius       : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .lowpoweroffcopy .oval12copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  margin              : 0;
+  width               : 56px;
+  position            : absolute;
+  left                : 29px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .useroncopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 541px;
+  height              : 77px;
+  margin              : 0;
+  width               : 98px;
+  position            : absolute;
+  left                : 13px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .useroncopy .uc0acuc6a9uc790ubaa8ub4dccopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 63px;
+  height              : auto;
+  margin              : 0;
+  width               : 98px;
+  position            : absolute;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "AppleSDGothicNeo-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(80, 226, 193, 1.0);
+  text-align          : center;
+  letter-spacing      : -0.13px;
+  line-height         : 15.0px;
+}
+.home1exellenton .useroncopy .oval12 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 56px;
+  margin              : 0;
+  width               : 56px;
+  position            : absolute;
+  left                : 21px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .useroncopy .combinedshape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 29px;
+  height              : 12px;
+  margin              : 0;
+  width               : 23px;
+  position            : absolute;
+  left                : 37px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .useroncopy .oval8copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 14px;
+  margin              : 0;
+  width               : 14px;
+  position            : absolute;
+  left                : 41px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .moreinformation {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 639px;
+  height              : 8px;
+  margin              : 0;
+  width               : 12px;
+  position            : absolute;
+  left                : 182px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .moreinformation .path2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 8px;
+  margin              : 0;
+  width               : 12px;
+  position            : relative;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .exellent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 370px;
+  height              : 28px;
+  margin              : 0;
+  width               : 114px;
+  position            : absolute;
+  left                : 131px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .exellent .exellent {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  margin              : 0;
+  width               : 114px;
+  position            : absolute;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "AppleSDGothicNeo-SemiBold", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(74, 73, 74, 1.0);
+  text-align          : center;
+  line-height         : 28.0px;
+}
+.home1exellenton .exellenttip {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 404px;
+  height              : 28px;
+  margin              : 0;
+  width               : 206px;
+  position            : absolute;
+  left                : 85px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .exellenttip .ub0a0uc528uac00uc88buc73cub2c8uc0b0ucc45ud574ubcf4uc2dcub294uac74uc5b4ub5a0uc2e0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  margin              : 0;
+  width               : 206px;
+  position            : absolute;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "AppleSDGothicNeo-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(74, 73, 74, 1.0);
+  text-align          : center;
+  line-height         : 28.0px;
+}
+.home1exellenton .oval8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 127px;
+  height              : 33px;
+  margin              : 0;
+  width               : 33px;
+  position            : absolute;
+  left                : 168px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .oval7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 286px;
+  height              : 33px;
+  margin              : 0;
+  width               : 33px;
+  position            : absolute;
+  left                : 168px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .oval6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 156px;
+  height              : 33px;
+  margin              : 0;
+  width               : 33px;
+  position            : absolute;
+  left                : 101px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .oval5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 258px;
+  height              : 33px;
+  margin              : 0;
+  width               : 33px;
+  position            : absolute;
+  left                : 101px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .oval4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 207px;
+  height              : 33px;
+  margin              : 0;
+  width               : 33px;
+  position            : absolute;
+  left                : 88px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .oval3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 207px;
+  height              : 33px;
+  margin              : 0;
+  width               : 33px;
+  position            : absolute;
+  left                : 254px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .oval2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 156px;
+  height              : 33px;
+  margin              : 0;
+  width               : 33px;
+  position            : absolute;
+  left                : 234px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .oval1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 258px;
+  height              : 33px;
+  margin              : 0;
+  width               : 33px;
+  position            : absolute;
+  left                : 234px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .mainpowericon1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 166px;
+  height              : 121px;
+  margin              : 0;
+  width               : 121px;
+  position            : absolute;
+  left                : 127px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .mainpowericon1 .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 121px;
+  margin              : 0;
+  width               : 121px;
+  position            : relative;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .pm10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 240px;
+  height              : 14px;
+  margin              : 0;
+  width               : 114px;
+  position            : absolute;
+  left                : 131px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .pm10 .pgu33a5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  margin              : 0;
+  width               : 116px;
+  position            : absolute;
+  left                : -1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "AppleSDGothicNeo-Regular", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(74, 73, 74, 1.0);
+  text-align          : center;
+  line-height         : 28.0px;
+}
+.home1exellenton .statusbarcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 25px;
+  margin              : 0;
+  width               : 375px;
+  position            : absolute;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .statusbarcopy .statusbarbg {
+  background-color    : rgba(0, 0, 0, 1.0);
+  top                 : 1px;
+  height              : 24px;
+  margin              : 0;
+  width               : 375px;
+  position            : absolute;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .statusbarcopy .a1230 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : auto;
+  margin              : 0;
+  width               : auto;
+  position            : absolute;
+  left                : 327px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "AppleSystemUIFont", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : right;
+  line-height         : 16.0px;
+}
+.home1exellenton .statusbarcopy .bounds {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 17px;
+  margin              : 0;
+  width               : 16px;
+  position            : absolute;
+  left                : 310px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .statusbarcopy .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 15px;
+  margin              : 0;
+  width               : 9px;
+  position            : absolute;
+  left                : 313px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .statusbarcopy .bounds1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 17px;
+  margin              : 0;
+  width               : 16px;
+  position            : absolute;
+  left                : 290px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .statusbarcopy .shape1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 15px;
+  margin              : 0;
+  width               : 14px;
+  position            : absolute;
+  left                : 290px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .statusbarcopy .bounds2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 17px;
+  margin              : 0;
+  width               : 16px;
+  position            : absolute;
+  left                : 271px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .statusbarcopy .shape2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 15px;
+  margin              : 0;
+  width               : 18px;
+  position            : absolute;
+  left                : 270px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .menu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 47px;
+  height              : 13px;
+  margin              : 0;
+  width               : 19px;
+  position            : absolute;
+  left                : 20px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .menu .path {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 2px;
+  margin              : 0;
+  width               : 19px;
+  position            : absolute;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .menu .path1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 5px;
+  height              : 2px;
+  margin              : 0;
+  width               : 19px;
+  position            : absolute;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .menu .path2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 2px;
+  margin              : 0;
+  width               : 19px;
+  position            : absolute;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .placename {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 43px;
+  height              : 28px;
+  margin              : 0;
+  width               : 114px;
+  position            : absolute;
+  left                : 131px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .placename .placename {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  margin              : 0;
+  width               : 114px;
+  position            : absolute;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "AppleSDGothicNeo-Regular", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 28.0px;
+}
+.home1exellenton .adddevicebutton {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 44px;
+  height              : 14px;
+  margin              : 0;
+  width               : 14px;
+  position            : absolute;
+  left                : 344px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.home1exellenton .adddevicebutton .shape {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 14px;
+  margin              : 0;
+  width               : 14px;
+  position            : relative;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+
+
+
+  {
+        opacity: 0;
+      }
+
+
+
+
+  100%
+
+
+
+  {
+        opacity: 1;
+      }
+}
+@-moz-keyframes anima-reveal {
+  0%
+
+
+
+  {
+        opacity: 0;
+      }
+
+
+
+
+  100%
+
+
+
+  {
+        opacity: 1;
+      }
+}
+@-o-keyframes anima-reveal {
+  0%
+
+
+
+  {
+        opacity: 0;
+      }
+
+
+
+
+  100%
+
+
+
+  {
+        opacity: 1;
+      }
+}
+@keyframes anima-reveal {
+  0%
+
+
+
+  {
+        opacity: 0;
+      }
+
+
+
+
+  100%
+
+
+
+  {
+        opacity: 1;
+      }
+}

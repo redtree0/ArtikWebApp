@@ -1,0 +1,22 @@
+{
+  "address": "localhost",
+  "port" : 4444,
+  "debug" : true,
+  "sessionSecret" : "not-so-very-secret",
+  "oauth": {
+    "clientID": "4e156aafd1e14b98993b915623f0d07d",
+    "clientSecret": "fd8c2087231242939900475d0f6b1c85",
+    "callbackURL": "http://localhost:4444/login/artikcloud/callback"
+  },
+  "messageCount": 50,
+  "appPrefix": "achb_",
+  "devices": {
+    "dt93687a03945948aeb6690753bbc4af62": {
+      "name": "artikmqtt",
+      "fullName": "ArtikCloudMqtt",
+      "unique": "mqtt_Artik053",
+      "id": "dt93687a03945948aeb6690753bbc4af62",
+      "requiresAuth": true
+    }
+  }
+}
