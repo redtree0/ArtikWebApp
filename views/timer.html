@@ -12,38 +12,39 @@ function timer(expireSec) {
     var day, hour, min, sec, mod;
     var countText;
     var cycle = 1;//1초에 한번
-    remainSec = expireSec - cycle;
+   
     countText = "";
-    if (remainSec >= 0) {
-        // 남은일수
-        day = Math.floor(expireSec / (3600 * 24));
-        mod = expireSec % (24 * 3600);
-        // 남은시간
-        hour = Math.floor(mod / 3600);
-        mod = mod % 3600;
-        // 남은분
-        min = Math.floor(mod / 60);
-        // 남은초
-        sec = mod % 60;
-        countText += (day>0) ? (day + "일 ") : "";
-        countText += (hour>0) ? hour + "시간 " : "";
-        countText += min + "분 ";
-        countText += sec + "초";
-
-    }
-
-    if (expireSec<=0) {
-        countText = "종료되었습니다.";
-        $.post("/actions", (val)=>{
-            console.log(val);
-        })
-
-        // 종료 후에 필요한 로직 구현
-    }
-    // // document.getElementById('countText').innerHTML = countText;
-    // if (expireSec>0) {
-    // 	autoExecTimer = setInterval((v)=>{timer(v)}, cycle*1000);
+    var mydate = new Date();
+    console.log(mydate);
+    // if (expireSec >= 0) {
+    //     // 남은일수
+    //     day = Math.floor(expireSec / (3600 * 24));
+    //     mod = expireSec % (24 * 3600);
+    //     // 남은시간
+    //     hour = Math.floor(mod / 3600);
+    //     mod = mod % 3600;
+    //     // 남은분
+    //     min = Math.floor(mod / 60);
+    //     // 남은초
+    //     sec = mod % 60;
+    //     countText += (day>0) ? (day + "일 ") : "";
+    //     countText += (hour>0) ? hour + "시간 " : "";
+    //     countText += min + "분 ";
+    //     countText += sec + "초";
+    //     expireSec = expireSec - cycle;
     // }
+
+    // if (expireSec<=0) {
+        // countText = "종료되었습니다.";
+    var body = { "reserve" : mydate }
+    $.post("/reserve", body ,(val)=>{
+        console.log(val);
+    })
+        // 종료 후에 필요한 로직 구현
+    // }
+    // console.log(countText);
+    document.getElementById('countText').innerHTML = countText;
+    
 }
 
 function startCountdown() {
@@ -52,7 +53,10 @@ function startCountdown() {
 		alert("실행예약시간을 분단위로 입력하세요.");
 		return;
 	}else{
-        autoExecTimer = setInterval((v)=>{timer(v)}, 1000);
+        console.log(expireMin);
+        console.log("start");
+        timer();
+        // autoExecTimer = setInterval(()=>{timer(expireMin*60)}, 1000);
     }
 	// timer(expireMin*60);
 }
