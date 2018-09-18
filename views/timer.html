@@ -1,0 +1,68 @@
+<html>
+<head>
+<title> New Document </title>
+<meta name="Generator" content="EditPlus">
+<meta name="Author" content="">
+<meta name="Keywords" content="">
+<meta name="Description" content="">
+<script type="text/javascript">
+var remainSec;
+var autoExecTimer;
+function timer(expireSec) {
+    var day, hour, min, sec, mod;
+    var countText;
+    var cycle = 1;//1초에 한번
+    remainSec = expireSec - cycle;
+    countText = "";
+    if (remainSec >= 0) {
+        // 남은일수
+        day = Math.floor(expireSec / (3600 * 24));
+        mod = expireSec % (24 * 3600);
+        // 남은시간
+        hour = Math.floor(mod / 3600);
+        mod = mod % 3600;
+        // 남은분
+        min = Math.floor(mod / 60);
+        // 남은초
+        sec = mod % 60;
+        countText += (day>0) ? (day + "일 ") : "";
+        countText += (hour>0) ? hour + "시간 " : "";
+        countText += min + "분 ";
+        countText += sec + "초";
+
+    }
+    if (expireSec<=0) {
+        countText = "종료되었습니다.";
+        // 종료 후에 필요한 로직 구현
+    }
+    document.getElementById('countText').innerHTML = countText;
+    if (expireSec>0) {
+    	autoExecTimer = setTimeout((v)=>{timer(v)}, cycle*1000);
+    }
+}
+
+function startCountdown() {
+	var expireMin =  document.getElementById('expireMin').value;
+	if (expireMin == "") {
+		alert("실행예약시간을 분단위로 입력하세요.");
+		return;
+	}
+	countdown(expireMin*60);
+}
+function stopCountdown() {
+	clearTimeout(autoExecTimer);
+	document.getElementById('countText').innerHTML = '';
+
+}
+
+</script>
+</head>
+<body>
+
+예약시간 <input type="text" id="expireMin" style="width:30px;text-align:right">분 이후
+<button id="btnStartCountdown" onclick="startCountdown()">Start</button>
+<button id="btnStopCountdown" onclick="stopCountdown()">Stop</button>
+남은시간 : <label id="countText"></label>
+
+</body>
+</html>

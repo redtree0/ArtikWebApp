@@ -5,16 +5,13 @@ var fs = require('fs');
 var express = require('express');
 var nunjucks = require('nunjucks');
 var path = require('path');
-var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var session = require('express-session');
 var uuid = require('node-uuid');
-var async = require('async');
 
 var routes = require('./routes/index');
-// var users = require('./routes/users');
 var artik = require('./routes/artik');
 
 
@@ -136,13 +133,8 @@ function(req, res) {
 }
 );
 
-// var test =artik(passport);
-//url관점에서 모듈화
 app.use('/', artik);
 app.use('/', routes);
-// app.use('/', test);
-
-// app.use('/users', users);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

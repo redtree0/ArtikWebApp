@@ -32,6 +32,12 @@
  var _pmValue = document.getElementById('pmValue');
  let timeInterval = 5000;
 
+  // $("#deviceTimerBtn").click(function(e){
+  //   console.log(e);
+    
+    
+  // });
+
   var auto = setInterval(function(){
     // getPmValue();
   }, timeInterval);
